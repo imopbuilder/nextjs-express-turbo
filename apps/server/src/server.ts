@@ -1,3 +1,3 @@
-import "module-alias/register";
+import 'module-alias/register';
 
-console.log("server running!!!");
+console.log('server running!!!');
