@@ -1,6 +1,6 @@
 # Next-express-turbo
 
-This codebase leverages the powerful combination of Next.js and Express, seamlessly integrated through TurboRepo. Which, in turn, encapsulates the robust capabilities of Biome and TypeScript tooling, providing a streamlined and efficient development environment.
+This codebase leverages the powerful combination of Next.js and Node.js, seamlessly integrated through TurboRepo. Which, in turn, encapsulates the robust capabilities of Biome and TypeScript tooling, providing a streamlined and efficient development environment.
 
 ### What's inside?
 
