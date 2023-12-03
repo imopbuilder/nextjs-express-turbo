@@ -6,7 +6,8 @@
 		"dev": "nodemon",
 		"start": "pnpm run build && node build/server.js",
 		"build": "rimraf build && tsc",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"format": "pnpm biome format --write ./src",
+		"lint": "pnpm biome lint ./src --apply"
 	},
 	"license": "ISC",
 	"dependencies": {

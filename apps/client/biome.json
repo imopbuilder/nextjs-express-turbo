@@ -1,3 +1,3 @@
 {
-    "extends": ["@repo/biome/base.json"]
+	"extends": ["./node_modules/@repo/biome/base.json"]
 }

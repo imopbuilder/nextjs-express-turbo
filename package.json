@@ -4,10 +4,13 @@
 	"scripts": {
 		"build": "turbo build",
 		"dev": "turbo dev",
-		"lint": "turbo lint",
-		"format": "hello-world"
+		"dev:client": "turbo dev --filter client",
+		"dev:server": "turbo dev --filter server",
+		"format": "turbo format",
+		"lint": "turbo lint"
 	},
 	"devDependencies": {
+		"@biomejs/biome": "^1.4.1",
 		"@repo/biome": "workspace:*",
 		"@repo/typescript": "workspace:*",
 		"turbo": "latest"
