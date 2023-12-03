@@ -1,0 +1,17 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "Server",
+	"ts-node": {
+		"preferTsExts": true
+	},
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"skipLibCheck": true,
+		"noImplicitAny": true,
+		"allowSyntheticDefaultImports": true
+	}
+}

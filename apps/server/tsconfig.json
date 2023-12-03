@@ -1,0 +1,13 @@
+{
+	"$schema": "https://json.schemastore.org/jsconfig",
+	"extends": "./node_modules/@repo/typescript/server.json",
+	"compilerOptions": {
+		"outDir": "build",
+		"rootDir": "src",
+		"baseUrl": "./src",
+		"paths": {
+			"@/*": ["./*"]
+		}
+	},
+	"include": ["**/*.ts", "**/*.tsx"]
+}
